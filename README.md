@@ -1,3 +1,17 @@
+
+This is a sandbox for reproducing the exercises from the Udemy Sketch
+course [The Complete Sketch 5 Course - Design Apps & Websites 2018](https://www.udemy.com/sketchdesign/).
+
+It's forked from semanterra/pure-view.
+
+It was very hard to get Storybook to show any new
+case, no matter how simple.  This was never solved, it just worked
+in the current scenario and I tried to not brea it after that.  
+My best guess is that there is some caching mechanism that is very flawed, 
+somewhere in webpack, create-react-app, or storybook.
+
+---
+
 This is boilerplate for setting up a UI development project that
 has no back-end dependencies.  
 It is written in typescript, and includes material-ui, storybook and jest.
